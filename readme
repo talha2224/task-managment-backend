@@ -1,0 +1,56 @@
+Task Manager Backend
+
+A simple and scalable backend API for managing tasks, built with Node.js, Express, and Mysql.
+Supports CRUD operations, environment-based configuration, and follows clean folder structure.
+Features
+
+RESTful API for task management
+Auth apis
+Create, Read, Update, Delete tasks
+Environment variable support using dotenv
+Clean project structure
+Error handling & middleware support
+
+PROJECT STRUCTURE
+backend/
+│── src/
+│   ├── app.js
+│   ├── server.js
+│   ├── config/
+│   │    └── db.js
+│   ├── middleware/
+│   │    └── auth.middleware.js
+│   ├── services/
+│   │    └── auth.service.js
+│   │    └── task.service.js
+│   ├── views/
+│   │    └── task.routes.js
+│   │    └── auth.routes.js
+│   └── models/
+│   │    └── task.model.js
+│   │    └── auth.user.js
+│── .env
+│── package.json
+│── README.md
+
+
+Clone the repo
+git clone <repo-url>
+cd backend
+
+INSTALLING PACKAGES
+npm install
+
+Environment Variables
+PORT=
+JWT_SECRET=
+HOST=
+USER=
+PASSWORD=''
+DB=
+
+
+RUN COMMAND
+npm start
+
+
